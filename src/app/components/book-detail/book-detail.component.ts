@@ -1,5 +1,5 @@
-import { Component, inject } from '@angular/core';
-import { BookService } from '../../services/book/book.service';
+import { Component } from '@angular/core';
+
 
 @Component({
   selector: 'app-book-detail',
@@ -8,5 +8,5 @@ import { BookService } from '../../services/book/book.service';
   styleUrl: './book-detail.component.scss'
 })
 export class BookDetailComponent {
-bookServ = inject(BookService)
+
 }
