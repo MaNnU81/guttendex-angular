@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
+import { Book } from '../../model/book';
 
 
 @Component({
@@ -9,4 +10,5 @@ import { Component } from '@angular/core';
 })
 export class BookDetailComponent {
 
+  book = input<Book>()
 }
