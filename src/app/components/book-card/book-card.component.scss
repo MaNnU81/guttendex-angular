@@ -4,12 +4,17 @@
 }
 
 .container img {
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 200px;
     object-fit: contain;
     object-position: center center;
 }
 
 .container span {
-    width: 200px;
+    font-family: monospace;
+    width: 150px;
+    background: grey;
+    color: azure;
+    text-align: center;
+    height: 60px;
 }
